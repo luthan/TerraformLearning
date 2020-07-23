@@ -4,3 +4,7 @@ output "address" {
 output "instance_IPs" {
   value = "${aws_instance.web.*.public_ip}"
 }
+
+
+
+
