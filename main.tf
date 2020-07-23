@@ -103,7 +103,7 @@ resource "aws_key_pair" "auth" {
 }
 
 resource "aws_instance" "web" {
-  count = 3
+  count = 2
   # The connection block tells our provisioner how to
   # communicate with the resource (instance)
   connection {
